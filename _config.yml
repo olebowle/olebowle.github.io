@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://blog.olebowle.de
+title: blog.olebowle.de
+subtitle: random technical stuff and observations
+author: Ole Ernst
 simple_search: https://www.google.com/search
 description:
 
@@ -64,14 +64,14 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: olebowle
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
 twitter_user:
-twitter_tweet_button: true
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false
@@ -99,3 +99,24 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+# cc license http://creativecommons.org/choose/
+
+# enable cc license?, default: nil means disabled, true to enable
+cc_license: true
+
+# allow mofiication of works? default: 'yes', options: 'yes', 'no' or 'share'
+cc_license_allow_modification: 'share'
+
+# allow commercial uses of your work? default: true
+cc_license_allow_commercial_uses: true
+
+# license jurisdiction? default: International
+# //TODO(hoatle): implement cc_license_license_jurisdiction
+#cc_license_license_jurisdiction: International
+
+# add metadata? default: nil //TODO(hoatle): implement cc_license_metadata
+#cc_license_metadata:
+
+# icon styles? default: 'normal', options: 'normal' or 'compact'.
+cc_license_icon: 'normal'
