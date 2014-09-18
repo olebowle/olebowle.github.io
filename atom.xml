@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[blog.olebowle.de]]></title>
+  <link href="http://blog.olebowle.de/atom.xml" rel="self"/>
+  <link href="http://blog.olebowle.de/"/>
+  <updated>2014-09-18T15:10:32+02:00</updated>
+  <id>http://blog.olebowle.de/</id>
+  <author>
+    <name><![CDATA[Ole Ernst]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
